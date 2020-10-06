@@ -1,0 +1,2 @@
+la diferencia entre usar is y == es que el primero compara que los dos objetos sean el mismo
+y el segundo compara que el valor sea el mismo, a la hora de usar boolean daran resultados diferentes

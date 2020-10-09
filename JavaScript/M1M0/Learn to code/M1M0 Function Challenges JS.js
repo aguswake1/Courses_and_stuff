@@ -1,4 +1,18 @@
 //VERY EASY
+
+// helloWorld() returns "hello"
+
+function helloWorld() {
+	return "hello";
+}
+
+// Code a function that returns the first value from its array parameter. Examples: firstValue([9, 7, 11]) returns 9
+
+function firstValue(array){
+	return array[0];
+}
+
+
 //EASY
 //MEDIUM
 
@@ -57,3 +71,7 @@ console.log(differenceMinMax([10,25,30,80]));
 
 
 //VERY HARD
+
+function reverse(array){
+	array.reverse();
+	return array;

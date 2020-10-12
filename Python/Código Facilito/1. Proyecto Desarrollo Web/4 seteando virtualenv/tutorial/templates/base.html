@@ -1,0 +1,22 @@
+<!-- usamos jinja2 para implementar heredación, en este caso de etiquetas, tambien
+se implementa con lógica de programación-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hola Mundo </title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/style.css')}}">
+    <script type="text/javascript" src="{{ url_for('static',filename='js/main.js')}}"></script>
+</head>
+<body>
+    <a href="{{ url_for('index') }}">Home</a>
+    <a href="{{ url_for('about') }}">About me: </a>
+
+    {% block content %}
+    {% endblock %}
+    {% block footer %}
+    <footer><p>pie de pagina</p></footer>
+    {% endblock %}
+</body>
+</html>

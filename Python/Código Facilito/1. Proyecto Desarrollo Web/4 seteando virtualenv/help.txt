@@ -1,0 +1,6 @@
+pip3 install virtualenv
+virtualenv -p python3 env
+source env/bin/activate --> pip3 install flask
+deactivate
+
+de esa manera creamos un venv. para usar estre proyecto una vez que estemos con el venv activado hacemos cd tutorial

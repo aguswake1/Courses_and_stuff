@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block content%}
+
+<h2>Hola {{username}}</h2><p>puede ser que se llena la vecindad aanashe</p>
+{% if coscu_rules %}  <!-- agregando un condicional para generar el párrafo -->
+<p>Coscu rules</p>
+{% else %}
+<p>cOscu es malard0</p>
+{% endif %}
+
+{% if lista %}
+<p>Lenguajes de programacion</p>
+<ul>
+    {% for lenguaje in lista %}
+    <li> {{ lenguaje }}</li>
+    {% endfor %}
+</ul>
+{% endif %}
+<img src="{{ url_for('static',filename='images/flash.jpg') }}" alt="Barry Allen">
+
+{% endblock %}

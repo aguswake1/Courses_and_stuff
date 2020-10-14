@@ -1,0 +1,8 @@
+random.random() --> devuelve aleatorio entre 0 y 1
+random.random()*10 --> devuelve aleatorio entre 0 y 10
+(random.random()*10)%6 --> devuelve aleatorio entre 0 y 5
+(random.random()*10)%6+1 --> devuelve aleatorio entre 1 y 6 (lo podemos castear a int)
+
+random.choice([1,7,5,89,1,8,1]) --> devuelve aleatoriamente un elemento de la lista
+
+random.choices([1,7,5,89,1,8,1], k=2) --> devuelve una lista con dos elementos aleatorios de la anterior

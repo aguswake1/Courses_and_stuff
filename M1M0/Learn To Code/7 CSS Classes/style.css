@@ -1,0 +1,34 @@
+/* inheritance */
+div,
+.buttons {
+    background-color: aqua;
+    font-size: large;
+    text-align: center;
+    border: 1px solid;
+    font-family: cursive;
+    text-decoration: line-through;
+}
+
+p {
+    color: white;
+}
+
+.styling {
+    color: #0000ff;
+    padding: 10px;
+}
+
+.modify {
+    text-decoration: none;
+    margin: 20px;
+    background-color: yellow;
+}
+
+.image {
+    width: 2000px;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+}

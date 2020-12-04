@@ -1,0 +1,56 @@
+/*css functions*/
+
+h1 {
+    filter: blur(1px);
+}
+
+h2 {
+    padding: 50px;
+    border-radius: 30px;
+    background: linear-gradient(45deg, orange, lightgreen, forestgreen);
+}
+
+h3 {
+    padding: 50px;
+    border-radius: 30px;
+    background: linear-gradient(90deg, beige, lightblue, teal);
+}
+
+h4 {
+    padding: 50px;
+    border-radius: 30px;
+    background: linear-gradient(beige, lightblue, teal);
+}
+
+img {
+    height: 50%;
+    width: 50%;
+    /* clockwise, use a '-' to counterclockwise*/
+    transform: rotate(180deg);
+    filter: blur(1px);
+
+}
+
+.img2 {
+    transform: rotate(60deg);
+    filter: grayscale(100%);
+}
+
+.img3 {
+    transform: rotate(360deg);
+    filter: opacity(50%);
+}
+
+p {
+    filter: opacity(30%);
+}
+
+.img4 {
+    transform: rotate(360deg);
+    filter: saturate(200%) contrast(180%);
+}
+
+.img5 {
+    transform: rotate(360deg);
+    filter: brightness(150%);
+}

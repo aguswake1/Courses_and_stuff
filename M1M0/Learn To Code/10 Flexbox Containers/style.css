@@ -1,0 +1,20 @@
+/* default justify content: flex-start, others: flex-end, center, space-around, space-between */
+/*in order to work in a flex-direction column, the container needs to be taller */
+.container {
+    border: 1px solid;
+    display: flex;
+    justify-content: flex-end;
+    /* cross axis | default align item: stretch, others: flex-end, flex start, center*/
+    align-items: flex-end;
+    height: 100px;
+    /* flex wrap default value is nowrap. this propertie with the value wrap makes the
+     content no overflowing the container, we also have wrap-reverse (the last items now are the first ones.) */
+    flex-wrap: nowrap;
+    /* control the space around wrapped rows of items, default: stretch others: flex-start, flex-end, center, space-around and space-between*/
+    align-content: center;
+}
+
+.item {
+    border: 1px solid;
+    margin: 10px
+}

@@ -1,0 +1,19 @@
+/* flexbox makes elements adapt in size to fit their parent container */
+/* flex-direction: row is the default value. Other values are row-reverse, column and column-reverse*/
+
+.container {
+    border: 2px solid #806868;
+    display: flex;
+    /* main axis is vertical, cross axis is horizontal */
+    flex-direction: column;
+}
+
+.item {
+    border: 2px solid #457081;
+    margin: 10px;
+}
+
+span {
+    font-size: 20px;
+    font-weight: bold;
+}

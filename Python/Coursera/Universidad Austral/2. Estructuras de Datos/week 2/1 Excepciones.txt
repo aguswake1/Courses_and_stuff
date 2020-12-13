@@ -1,0 +1,13 @@
+Las excepciones son errores que ocurren durante la ejecución del programa. Hay distintos tipos de excepciones, por ejemplo
+zeroDivisionError: cuando una divisió por cero
+nameError: cuando un nombre global o local no es encontrado
+TypeError: cuando una operación o una función es aplicada a un objeto de un tió no apropiado
+Ante una exepción caben dos posibilidades, manejarlas o no manejarlas. Si durante la ejecución de un programa, dentro de una función, ocurre
+una excepción y la función no la maneja, la excepción se propaga hacia la función que la invocó. Si esta otra función tampoco la maneja, la excepción continúa propagándose hasta llegar a una función inicial del programa y 
+si ésta tampoco la maneja, se interrumpe la ejecución del programa dando un error de ejecución.
+manejar excepción: mostrar errores y por que ocurrieron, o hacer que el programa no se interrumpa por el error, o realizar acciones antes de la interrupción del mismo.
+try: dentro de este bloque ubicamos todo el código que pueda levantar una excepción
+except:captura la excepción y nos da la posibilidad de manejarla mostrando un mensaje adecuado al usuario
+finally: es opcional, se puede colocar luego del bloque except indicando las acciones a realizar después de que el código haya ingresado al try
+else: bloque opcional para cuando try no levanta una excepción
+usamos la declaración raise para forzar a que ocurra una excepción.

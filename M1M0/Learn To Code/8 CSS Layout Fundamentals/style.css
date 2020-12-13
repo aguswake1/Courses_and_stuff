@@ -1,0 +1,55 @@
+/* a, strong, span or em use display inline as default (displaying on the same line) */
+/*  p, headers or div use diplay block as default (displaying on different lines) */
+/*  buttons and images use diplay inline-block as default (displaying on the same line while leting us control the
+element's size) */
+/* position relative makes the element move according the original position, position absolute makes the element move
+according the sides of the webpage. top,bottom,left and right properties pushes the element away from this directions.*/
+/* default z-index = 0 */
+
+.parraf {
+    display: inline;
+}
+
+em {
+    display: block;
+}
+
+.css {
+    background-color: aqua;
+    display: inline-block;
+    width: 100px;
+}
+
+.picOne {
+    position: relative;
+    right: 23%;
+    width: 45%;
+    height: 45%;
+    float: right;
+}
+
+.picTwo {
+    position: relative;
+    width: 15%;
+    height: 15%;
+    float: right;
+    z-index: 0;
+}
+
+
+.wrapimage {
+    clear: right;
+}
+
+span {
+    position: relative;
+    top: 20px;
+    left: 5px;
+}
+
+#abpo {
+    position: absolute;
+    right: 10px;
+    font-size: 20px;
+    background-color: rgb(92, 160, 36);
+}

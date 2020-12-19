@@ -1,0 +1,34 @@
+Si se quiere crear un archivo que no existe:
+ f = open('path_to_file', 'x')
+ f = open('path_to_file', 'a')
+ f = open('path_to_file', 'w')
+
+Abrir un archivo en modo lectura
+ r+
+ r
+
+Abrir un archivo en modo escritura
+r+
+w
+wt
+b+
+
+qué tipo de archivos utilizarías el modo binario?
+.exe
+
+
+leen todo el contenido del archivo
+f.readlines()
+f.read()
+list(f)
+
+escribir en un archivo
+f.write("Hola Mundo")
+f.writelines(['Hola', 'Mundo'])
+f.writelines('Hola\nmundo')
+
+¿Que realiza la función tell?
+La función tell devuelve un entero que indica la posición actual en el archivo
+
+posicionar el archivo al comienzo
+f.seek(0)

@@ -15,7 +15,7 @@ b+
 
 qué tipo de archivos utilizarías el modo binario?
 .exe
-
+.jpg
 
 leen todo el contenido del archivo
 f.readlines()

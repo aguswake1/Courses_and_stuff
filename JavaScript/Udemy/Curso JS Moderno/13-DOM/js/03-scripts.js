@@ -1,0 +1,1 @@
+const formulario = document.getElementsById('formulario'); // si hay ids iguales retorna el primero que encuentra
